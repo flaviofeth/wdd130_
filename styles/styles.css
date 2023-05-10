@@ -5,23 +5,33 @@
 }
 
 nav {
+    display: flex;
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+nav a:link{
+    text-decoration: none;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: solid steelblue;
 }
 
 main img{
-    width: 150px;
-    height: auto;
+    width: 100px;
+    height: 150px;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;    
@@ -29,15 +39,12 @@ main img{
 
 main p {
     padding: 10px;
-    width: 40em;        
+    width: 30em;        
 }
 
-main {
-    max-width: 840px;
-}
 
 aside{
-    width: 20em;
+    width: 15em;
     text-align: center;
 }
 
@@ -68,7 +75,7 @@ main img{
 }
 
 ul{
-    width: 40em;
+    width: 30em;
     text-align: left;  
 }
 
@@ -76,4 +83,26 @@ aside h2{
     position:relative;
     top: 30px;
     left: 2px;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid{
+    display:grid;
+    align-items: center;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside{
+    witdh: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
