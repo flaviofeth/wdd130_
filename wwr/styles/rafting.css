@@ -11,9 +11,20 @@
     
 }
 
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 95%;
+}
+
 h1{
     font: var(--heading-font);
-    font-size: 400%;
+    font-size: 500%;
     color: blue;
     
 }
@@ -27,21 +38,29 @@ p{
 h2{
     font: var(--heading-font);
     font-size: 180%;
-    color: blue; 
+    color: blue;
+    text-align: center; 
 }
 
 .hero img{
     display: block;
-    width: 80%;
+    width: 100%;
     height: auto;
-    padding:0.5rem;
+    padding:0.1rem;
+}
+
+.subh img{
+    display:block;
+    width: 100%;
+    height: auto;
+    padding: 2.0rem;
 }
 
 .hero article{
     background-color: var(--secondary-color);
     position:absolute;
-    top:580px;
-    left: 540px;
+    top:600px;
+    left: 750px;
     padding: 0.5rem;
 
     
@@ -50,20 +69,21 @@ h2{
 .hero h1{
     position:absolute;
     top:255px;
-    right: 950px;
+    right: 850px;
     background-color: var(--primary-color);
     
 
 }
 
 header img{
-    width: 7%;
-    height: auto; 
+    width: 10%;
+    height: auto;
+    padding: 5px; 
 }
 
 .hero article img{
     float: right;
-    width: 15%;
+    width: 25%;
     height: auto;
     
 }
@@ -71,4 +91,53 @@ header img{
 a:link{
     color: black;
     text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-container img{
+    width: 95%;
+    height: auto;
+}
+
+.flex-container figcaption{
+    text-align:center;
+    font-size: 14px;
+}
+
+.histo p{
+    padding:30px;
+}
+
+footer p{
+    width: 95%;
+    text-align:center;
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: right;
+    background-color: var(--primary-color);
+}
+
+header{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding:0.5px;
+    background-color: var(--primary-color);
+    font: var(--heading-font);
+    font-size: 120%;
+    border: 2px solid black;
+    
+}
+
+.navigation{
+    display: flex; 
+    justify-content: space-around;
+    width: 60%; 
 }
