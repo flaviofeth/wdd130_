@@ -4,10 +4,17 @@ nav, footer {
     padding: 10px;
 }
 footer p {
-    font-size: 50px;
+    font-size: 15px;
     margin: 20px auto;
+    padding: 50px;
 }
 a:hover {
     background-color: white;
     color: steelblue;
+}
+h1 {
+    margin: 100 px 0;
+}
+img {
+    border: 10px solid steelblue;
 }

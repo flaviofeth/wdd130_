@@ -13,7 +13,9 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     background-color:#ABA361;
 }
 body {
-    background-color: #E2E8CE; 
+    background-color: #E2E8CE;
+    margin: 0;
+    padding: 0; 
 }
 header {
     background-color:rgba(115,44,44);
@@ -39,3 +41,78 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 }    
+
+.home-title {
+    font-family: 'Brush Script MT', 'Garamond', 'Courier New';
+    font-size: 2.5em;
+}
+
+.book, .join {
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.msg p{
+    font-size: 1.2em;
+}
+
+msg {
+    line-height: 1.5em;
+}
+
+h2{
+    margin:0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
+    padding: 35px;
+}
+
+.icon{
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.msg p{
+    padding-bottom:15px;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+
+}
+
+footer .social img{
+    padding-top:15px;
+}
+
+.home-title{
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border:10px solid #420c14;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
